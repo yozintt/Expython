@@ -1,3 +1,5 @@
-N = int(input('Digite o número inteiro: '))
-N = str(N)
-print('O seu numero invertido e igual a: {}'.format(N[::-1]))
+N = int(input('Digite um numero de 3 dígitos '))
+U = str(N // 1 % 10)
+D = str(N // 10 % 10)
+C = str(N // 100 % 10)
+print('{}{}{}'.format(U, D, C))
