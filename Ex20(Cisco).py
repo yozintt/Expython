@@ -1,0 +1,5 @@
+N = int(input('Digite um numero de 3 dígitos: '))
+U = str(N // 1 % 10)
+D = str(N // 10 % 10)
+C = str(N // 100 % 10)
+print('{}{}{}'.format(U, D, C))
